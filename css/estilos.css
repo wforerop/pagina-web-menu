@@ -1,0 +1,77 @@
+body{
+	background-image: url(http://1.bp.blogspot.com/-Er6yAS8w-vo/Uk60qzafqGI/AAAAAAAAACs/QjC1JyPt24M/s1600/532135_443591679067590_169986930_n.jpg);
+	background-position: auto;
+	background-position:  top ;
+	background-repeat: no-repeat;
+	background-size: 1370px 750px;
+	background: 
+	
+
+	
+
+
+	
+}
+header{
+	color: white;
+	background:black ;
+	border-radius: 10px 10px;
+	text-align: center;
+	box-shadow: inset 0px 0px 20px red, 15px 15px 50px red;
+	text-shadow:2px 3px 5px gray;
+	margin: 10px auto;
+	padding: 10px;
+
+}
+.menu li
+{
+	display: inline-block;
+	line-height: 35px; 
+	list-style: none; 
+	margin: 0 5px;
+}
+.menu li a
+{
+	
+
+	background-image: -webkit-linear-gradient(
+	 	top,
+		rgba(255,255,255,.5) 0%,
+		rgba(0,0,0,.1) 100%
+	);
+	border: 2px solid gray;
+	border-radius: 5px;
+	box-shadow: 1px 1px 10px rgba(0,0,0,0.65);
+	color: #f4f4f4; /*Internet Explorer*/
+	color: rgba(255,255,255, 0.8);
+	font: bold 18px "Myriad Pro", "Lucida Grande", Helvetica, Arial, sans-serif;
+	padding: 5px 15px;
+	text-decoration: none;
+	text-shadow: 3px 3px 10px rgba(0,0,0,0.4); 
+}
+.menu li a:active
+{
+	
+	background-image: -webkit-linear-gradient(
+	 	left,
+		rgba(255,255,255,.5) 0%,
+		rgba(255,255,255,.2) 10%,
+		rgba(0,0,0,.2) 85%,
+		rgba(0,0,0,.4) 100%
+	);
+}
+.Facebook{
+	background: blue;
+}
+.Hot-mail{
+	background: aqua;
+}
+.GitHub{
+	background: black;
+}
+.Dropbox{
+	background: red;
+}
+nav{
+	text-align: center;
+}
